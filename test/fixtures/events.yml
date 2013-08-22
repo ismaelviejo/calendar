@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  start_on: 2013-08-22 14:33:08
+  ends_on: 2013-08-22 14:33:08
+  host_id: 1
+  location: MyString
+  title: MyString
+  description: MyText
+
+two:
+  start_on: 2013-08-22 14:33:08
+  ends_on: 2013-08-22 14:33:08
+  host_id: 1
+  location: MyString
+  title: MyString
+  description: MyText
