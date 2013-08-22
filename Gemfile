@@ -1,5 +1,15 @@
 source 'https://rubygems.org'
 
+# pass authentication
+gem 'bcrypt-ruby', '~> 3.0.0'
+
+# serve assests in Heroku
+gem 'rails_12factor'
+
+# fast starter crud by tsl
+gem "starter_generators", "~> 0.7.3"
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
