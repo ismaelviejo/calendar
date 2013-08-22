@@ -1,9 +1,16 @@
 Calendar::Application.routes.draw do
+
+get '/sessions/new' => "sessions#new", as: "new_session"
+post '/sessions' => "sessions#create", as: "session"
+delete '/sessions' => "sessions#destroy"
+
   resources :invites
 
   resources :events
 
   resources :users
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -45,7 +52,7 @@ Calendar::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
