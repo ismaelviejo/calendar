@@ -1,5 +1,7 @@
 Calendar::Application.routes.draw do
 
+root "users#index"
+
 get '/sessions/new' => "sessions#new", as: "new_session"
 post '/sessions' => "sessions#create", as: "session"
 delete '/sessions' => "sessions#destroy"
